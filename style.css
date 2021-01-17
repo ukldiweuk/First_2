@@ -1,0 +1,139 @@
+@font-face{
+    font-family: Montserrat;
+    src:url('./9/Montserrat-Medium.ttf')
+}
+@font-face{
+    font-family: Nunito Sans;
+    src:url('./9/NunitoSans-Medium.ttf')
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo{
+    margin-right: auto;
+    margin-left: 100px;
+}
+.header_link{
+    margin-right: 30px;
+}
+.header_link:last-child{
+    margin-right: 90px;
+}
+.header_link a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+.header_link a:hover{
+    color: aqua
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    background: url("./2020-11-29\ 15.13.40.jpg") no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.numbers{
+    height: 240px;
+    width: 100%;
+    background-color: #10C9C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    width: 100%;
+    height: 575px;
+    background-color: cornsilk;
+
+}
+.about_img{
+    width: 50%;
+    height: 575px;
+    float: left;
+    object-fit: cover;
+}
+.about_text{
+    width: 50%;
+    height: 575px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.about_text_head{
+    margin-left: 85px;
+    margin-top: 115px;
+
+}
+.about_text_main{
+    margin-left: 100px;
+}
+.needProject{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.project_header{
+    font-family: 'Monsterrat';
+    letter-spacing: 0.3px;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 84px;
+}
+.project_text{
+    font-family: 'NunitoSans-Medium';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: gray;
+    text-align: center;
+}
+.project_button{
+    background: #10C9C3;
+    width: 265px;
+    height: 84px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.3px;
+
+}
+.footer{
+    height: 286px;
+    width: 1368px;
+    background-color:#141414;;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_links_second{
+    display: flex;
+}
+.footer_links_second_2{
+    margin-right: 30px
+}
